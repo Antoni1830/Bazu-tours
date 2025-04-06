@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta>
+    <title>Bazu-Tours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/Index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="fa.ico">
+</head>
+<body>
+ <header>
+    <script src="js/utils.mjs"></script>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong>PROMOTIONS!</strong> Check out the promotions on the side of the page.
+      </div>
+    <section class="hero">
+            
+        <h1>Bienvenidos a nuestra agencia de viajes</h1>
+        <p>¡Descubre nuevos destinos y vive experiencias inolvidables con nosotros!</p>
+        <img src="/img/bazu-tours-logos_transparent.png" style="width: 300px;" alt="">
+    </section>
+
+      <div class="icon-bar">
+        <a class="active1" href="Index.html"><i class="fa fa-home"></i></a> 
+         <a href="paginas/viaje.html"><i class="fa fa-plane"></i></a> 
+         <a href="paginas/hotels.html"><i class="fa fa-hotel"></i></a>
+         <a href="paginas/Carrito.html"><i class="fa fa-shopping-bag "></i></a>
+        <a href="#"><i class="fa fa-phone"></i></a> 
+      </div>
+ </header>
+      
+      <div class="row">
+        <div class="side">
+         
+
+          <h3>Promotions of the month 📅</h3>
+          <p>Lorem ipsum dolor sit ame.</p>
+          <div class="imagen">
+          <img class="imgp" src="img/Promo/1.png" style="width: 300px;" ><br><br>
+          </div>
+          <div class="imagen">
+          <img class="imgp"src="img/Promo/2.png" style="width: 300px;" ><br><br>
+          </div>
+          <div class="imagen">
+          <img class="imgp"src="img/Promo/3.png" style="width: 300px;" ><br><br>
+          </div>
+          <div class="imagen">
+          <img class="imgp" src="img/Promo/Venezuela.png" style="width: 300px;" alt=""><br><br>
+          </div>
+        
+          
+        </div>
+        <div class="main">
+          <h1>Discover New Places</h1>
+          <h5>There are many destinations waiting for you!</h5>
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img/naviglio-grande-canal-evening-milan-italy.jpg" style="width:100%">
+              <div class="text">Milan-Italia</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="/img/royal-palace-madrid-spain.jpg" style="width:100%">
+              <div class="text">Madrid-España</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img/spencer-davis-ONVA6s03hg8-unsplash.jpg" style="width:100%">
+              <div class="text">Egypt</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <script src="js/img.js"></script>
+          <H1></H1>
+          <p>We're passionate about helping our guests discover the world. Whether you're looking for a romantic getaway, a family vacation, or a solo adventure, we're here to make your travel dreams come true.</p>
+          <br>
+          <div class="main2">
+
+            <h1>DESTINATIONS</h1>
+            <hr>
+            
+            <h2>Most Visited Destinations</h2>
+            
+            <div id="myBtnContainer">
+              <button class="btn active" onclick="filterSelection('all')"> Show all <img src="img/globo-terraqueo.png" style="height: 30px;" alt=""></button>
+              <button class="btn" onclick="filterSelection('nature')"> Italia <img src="img/italia (1).png" style="height: 30px;" alt=""></button>
+              <button class="btn" onclick="filterSelection('cars')"> España <img src="img/espana.png" style="height: 30px;" alt=""></button>
+              <button class="btn" onclick="filterSelection('people')"> Francia<img src="img/francia.png" style="height: 30px;" alt=""></button>
+            </div>
+            
+            <!-- Portfolio Gallery Grid -->
+            <div class="row">
+              <div class="column nature">
+                <div class="content">
+                  <img src="img/ouael-ben-salah-0xe2FGo7Vc0-unsplash.jpg" alt="Mountains" style="width:100%">
+                  <h4>Catedral de Milán</h4>
+                  <p>Milan Cathedral is a Gothic cathedral located in the city of the same name.</p>
+                </div>
+              </div>
+              <div class="column nature">
+                <div class="content">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB8yuTvMwNJBhnxdJkKl7j3ezuro7mbfXb91UJegeVZyH14yDDEknhnrclqJn20emESvs3P_w8rlnBk0je4HgNZodhH4VQQU0hqufOTfRNf3BxAOnrex0N_2h1FIaDzSR-MJ9p98LA=s1360-w1360-h1020-rw" alt="Lights" style="width:100%">
+                  <h4>Torre de Pisa</h4>
+                  <p>Located in the Piazza del Duomo in Pisa, in the city of the same name, a municipality in the Italian region of Tuscany and capital of the province of the same name in Italy.</p>
+                </div>
+              </div>
+              <div class="column nature">
+                <div class="content">
+                <img src="https://lh3.googleusercontent.com/gps-cs-s/AB5caB9zO1g27uOA8_I9RbSNou2bhuOOYDu_Js760t8PJa5dZ5uvymLawejMlIBf7T1mEaUPG_sqcPL6Vm1FNN2JEkZ0Kf4u6A92O4lMRHvQEF2BBkKEQ2lJiXvmLN82zhCK2rlq0QfS=s1360-w1360-h1020-rw" alt="Nature" style="width:100%">
+                  <h4>Coliseo de Roma</h4>
+                  <p>It is an amphitheater from the time of the Roman Empire, built in the 1st century. It is located in the east of the Roman Forum and was the largest of those built in the Roman Empire..</p>
+                </div>
+              </div>
+              
+              <div class="column cars">
+                <div class="content">
+                  <img src="https://lh3.googleusercontent.com/p/AF1QipM0_CDH7Ci2pNYaAjMAS1JnstKtUbvWRSwDts-K=s1360-w1360-h1020-rw" alt="Car" style="width:100%">
+                  <h4>Plaza de España</h4>
+                  <p>It is an architectural complex located in the María Luisa Park in the city of Seville (Andalusia, Spain). It was built between 1914 and 1929 and is the largest building of the Ibero-American Exposition of 1929.</p>
+                </div>
+              </div>
+              <div class="column cars">
+                <div class="content">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipMoeZg_fCMJuUPD8jRK5q5mllmkI9As-wtNrB3_=s1360-w1360-h1020-rw" alt="Car" style="width:100%">
+                  <h4>Basílica de la Sagrada Família</h4>
+                  <p>It is an exceptional temple, both in terms of its origin and foundation, as well as its purpose. Today, more than 140 years after the laying of the first stone, the Basilica is still under construction.</p>
+                </div>
+              </div>
+              <div class="column cars">
+                <div class="content">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipPp7gG6UeQm7kyfY5d_KCZbDZnKjsFGMTpUH8YQ=s1360-w1360-h1020-rw" alt="Car" style="width:100%">
+                  <h4>Palacio Real de Madrid</h4>
+                  <p>It is one of the most beautiful and best-preserved in Europe. Its more than 135,000 square meters have witnessed centuries of Spanish history.</p>
+                </div>
+              </div>
+            
+              <div class="column people">
+                <div class="content">
+                  <img src="https://lh3.googleusercontent.com/p/AF1QipMFvt9DUkfvGQkhDUTQK5mUFTKAGwTzp3RqSpAG=s1360-w1360-h1020-rw" alt="Car" style="width:100%">
+                  <h4>Torre Eiffel</h4>
+                  <p>Located at the end of the Champ de Mars on the banks of the Seine River, a symbol of France and its capital, it is the tallest structure in the city and the most visited tourist attraction in the world.</p>
+                </div>
+              </div>
+              <div class="column people">
+                <div class="content">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipMiq8zbQz74ahZttWk6Nf_ASq3ARdE8TPLeVDof=s1360-w1360-h1020-rw" alt="Car" style="width:100%">
+                  <h4>Museo del Louvre</h4>
+                  <p>It is the national museum of France dedicated to fine arts, archaeology, and decorative arts prior to Impressionism.</p>
+                </div>
+              </div>
+              <div class="column people">
+                <div class="content">
+                <img src="https://lh3.googleusercontent.com/p/AF1QipP74b-7tVp6PwqgjxclfMXoA8CqKMioOQ4z7pXn=s1360-w1360-h1020-rw" alt="Car" style="width:100%">
+                  <h4>Catedral de Notre Dame</h4>
+                  <p> es una catedral de culto católico, sede de la arquidiócesis de París, la capital de Francia.</p>
+                </div>
+                
+              </div>
+            
+            </div>
+            <script src="js/grid.js"></script>
+            
+            </div>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        <footer id="footer-2-cols" class="site-footer">
+            <div id="footer-container">
+                <div id="footer-grid">
+                <div id="left-footer-section" class="footer-section">
+                        <div id="footer-search">
+                            
+                        </div>
+                    <div class="footer-information">
+                        <p><img src="https://img.icons8.com/ios-filled/12/999999/marker.png">30/20, Venezuela</p>
+                        <p><img src="https://img.icons8.com/ios-filled/12/999999/phone.png">+58 (414)8677103</p>
+                        <p><img src="https://img.icons8.com/ios-filled/12/999999/mail.png">Bazutours77a@gmail.com</p>
+                        <p><img src="https://img.icons8.com/ios-filled/12/999999/clock.png">8:00 AM – 8:00 PM</p>
+                    </div>
+                </div>
+                <div id="right-footer-section" class="footer-section">
+                    <div class="footer-links">
+                        <ul>
+                            <li role="menuitem"><a href="#">Home</a></li>
+                            <li role="menuitem"><a href="#">Contact Information</a></li>
+                            <li role="menuitem"><a href="#">Message Us</a></li>
+                            <li role="menuitem"><a href="#">Leave a Feedback</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <div id="copyright-information">
+                    <div id="footer-logo-section">
+                        <div id="footer-logo">
+                            <img src="img/photo_2023-08-04_15-56-09-removebg-preview.png" alt="">
+                        </div>
+                    </div>
+                    <div id="copyright-text">
+                        &copy; Bazu-Tours, create By Antoni jemmotte 🤙🏽
+                    </div>
+                    <div id="social-buttons">
+                      <a href="https://www.facebook.com/">  <img  src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png" /></a><img src="https://img.icons8.com/ios-filled/25/999999/telegram-app.png"/><img src="https://img.icons8.com/ios-filled/25/999999/instagram--v1.png"/>
+                    </div>
+                </div>
+        </div>
+    </footer>
+
+</body>
+</html>
