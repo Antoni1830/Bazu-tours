@@ -144,11 +144,11 @@ div.mister_separator {
 
 
 footer.site-footer {
-    padding: 60px 30px;
-  
-    background-attachment: fixed;
-    color: rgb(0, 0, 0);
-    font-size: 10pt;
+  padding: 60px 30px;
+
+  background-attachment: fixed;
+  color: rgb(0, 0, 0);
+  font-size: 10pt;
 }
 
 div#footer-container {
@@ -704,183 +704,86 @@ button:hover {
 }
 
 
-/*  Paginacarritoooooo */
-header{
-  background-color: #f8f2e8ff;
-  
-  box-shadow: 0 7px 8px -3px grey;
-  position: fixed;
-  width: 100%;
-  margin-top: -10px;
-  z-index: 99;
-}
-.container{
-  max-width: 1200px;
-  text-align: center;
-  margin: auto;
-}
-.header-section{
+
+/*   FROMM*/
+
+.row {
+  display: -ms-flexbox; /* IE10 */
   display: flex;
-  justify-content: space-between;
-  margin: auto;
-  align-items: center;
-  position: relative;
-}
-.header-section div{
-  position: relative;
-}
-.header-section p{
-  position: absolute;
-  top: -24px;
-  right: -8px;
-  background-color: #fff;
-  padding: 1px 6px;
-  border-radius: 50%;
-  color: red;
-  font-weight: 700;
-  font-family: system-ui;
-  line-height: 18px;
-}
-.logo{
-  width: 164px;
-  height: 84px;
-  cursor: pointer;
-}
-
-.cart{
-  width: 39px;
-  height: 38px;
-}
-.cart-products{
-  position: absolute!important;
-  top: 82px;
-  right: -18px;
-  background-color: #fff;
-  padding: 0 18px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-  display: none;
-
-  min-width: 290px;
-}
-
-.cart:hover{
-  margin-bottom: 16px;
-  transition-duration: .5s;
-}
-/*end header*/
-.products{
-  padding-top: 170px;
-  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  justify-content: space-between;
+  margin: 0 -16px;
 }
 
-.carts{
-  max-width: 250px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
-  padding-bottom: 34px;
-  margin-bottom: 40px;
+
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
 }
-.carts img{
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
   width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
-.carts p{
-  font-family: system-ui;
-  font-weight: 500;
-  padding: 0 20px;
-  margin-bottom: 24px;
+
+label {
+  margin-bottom: 10px;
+  display: block;
 }
-.carts div p{
-  position: absolute;
-  top: 0;
-  right: 0px;
-  background-color: rgb(0, 235, 129);
-  color: #fff;
-  padding: 2px 7px 4px 21px;
-  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
 }
-.carts div{
-  position: relative;
-}
-.carts a{
-  font-family: system-ui;
-  text-decoration: none;
-  background: red;
-  padding: 9px 23px;
-  color: #fff;
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
   font-size: 17px;
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
-.carts a:hover{
-  background: #fff;
-  color: red;
-  border: solid 2px red;
-  transition-duration: .3s;
+.btn:hover {
+  background-color: #45a049;
 }
 
-/*float cart*/
-.cart-products .item img{
-  width: 115px;
+a {
+  color: #2196F3;
 }
 
-.cart-products .item{
-  display: flex;
-  align-items: center;
-  border-bottom: solid 2px red;
-}
-.cart-products .item .item-content{
-  margin: 0 19px;
-  width: 201px;
-}
-.cart-products .item .item-content h5{
-  margin: 0;
-  font-size: 15px;
-  font-weight: 400;
-  font-family: system-ui;
-}
-.cart-products .item .item-content h6{
-  margin: 0;
-  font-size: 13px;
-  font-weight: 400;
-  font-family: system-ui;
-}
-.cart-products .item span{
-  background-color: red;
-  padding: 0px 5px;
-  border-radius: 50%;
-  color: #fff;
-  font-family: system-ui;
-  cursor: pointer;
-}
-.cart-products h3{
-  margin-bottom: 0;
-}
-.cart-products .item .item-content h5.cart-price{
-  font-weight: 700;
+hr {
+  border: 1px solid lightgrey;
 }
 
-/*stye to btn close*/
-p.close-btn{
-  top: -4px;
-  right: 6px;
-  cursor: pointer;
-  color: #000;
+span.price {
+  float: right;
+  color: grey;
 }
-p.author {
-  display: flex;
-  justify-content: center;
-  FONT-VARIANT: JIS04;
-  margin-top: 3%;
-  gap: 7px;
-}
-p.author a {
-  text-decoration: none;
-  font-weight: 700;
-  color: #000;
-}
-
-.checked {
-    color: orange;
-  }

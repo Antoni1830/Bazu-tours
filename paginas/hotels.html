@@ -13,90 +13,229 @@
         <link rel="icon" type="image/x-icon" href="fa.ico">
     </head>
     <body>
-        <header>
-            <script src="js/utils.mjs"></script>
-           
-            
+     <header>
+        <script src="js/utils.mjs"></script>
+       
         
-            <div class="icon-bar">
-                <a class="active1" href="/Index.html"><i class="fa fa-home"></i></a> 
-                 <a href="/paginas/viaje.html"><i class="fa fa-plane"></i></a> 
-                 <a href="/paginas/hotels.html"><i class="fa fa-hotel"></i></a>
-                 <a href="/paginas/Carrito.html"><i class="fa fa-shopping-bag "></i></a>
-                <a href="#"><i class="fa fa-phone"></i></a> 
-              </div>
-         
-        
-           
-            <div class="header-section container">
-                <h1>Hotels and lodging 🏨</h1>
-                <img class="logo" src="/img/bazu-tours-logos.jpeg" alt="">
-                <div>
-                    <img onclick="showCart(this)" class="cart" src="/img/carro.png" alt="">
-                    <p class="count-product">0</p>
-                </div>
-                  
-                <div class="cart-products" id="products-id">
-                    <p class="close-btn" onclick="closeBtn()">X</p>
-                    <h3>Mi carrito</h3>
-                    <div class="card-items">
-                        <!-- <div class="item">
-                            <img src="./images/products/keyboard-1.jpg" alt="">
-                            <div class="item-content">
-                                <h5>name of product name of product name of product</h5>
-                                <h5 class="cart-price">45.50$</h5>
-                                <h6>Amount: 3</h6>
-                            </div>
-                            <span>X</span>
+    
+        <div class="icon-bar">
+            <a class="active1" href="/Index.html"><i class="fa fa-home"></i></a> 
+             <a href="/paginas/viaje.html"><i class="fa fa-plane"></i></a> 
+             <a href="/paginas/hotels.html"><i class="fa fa-hotel"></i></a>
+             <a href="/paginas/Carrito.html"><i class="fa fa-shopping-bag "></i></a>
+            <a href="#"><i class="fa fa-phone"></i></a> 
+          </div>
+     
+    
+       
+        <div class="header-section container">
+            <h1>Lodging and hotels🏨</h1>
+            <img class="logo" src="/img/bazu-tours-logos.jpeg" alt="">
+            <div>
+                <img onclick="showCart(this)" class="cart" src="/img/carro.png" alt="">
+                <p class="count-product">0</p>
+            </div>
+              
+            <div class="cart-products" id="products-id">
+                <p class="close-btn" onclick="closeBtn()">X</p>
+                <h3>Mi carrito</h3>
+                <div class="card-items">
+                    <!-- <div class="item">
+                        <img src="./images/products/keyboard-1.jpg" alt="">
+                        <div class="item-content">
+                            <h5>name of product name of product name of product</h5>
+                            <h5 class="cart-price">45.50$</h5>
+                            <h6>Amount: 3</h6>
                         </div>
-        
-                        <div class="item">
-                            <img src="./images/products/keyboard-1.jpg" alt="">
-                            <div class="item-content">
-                                <h5>name of product name of product name of product</h5>
-                                <h5 class="cart-price">45.50$</h5>
-                                <h6>Amount: 3</h6>
-                            </div>
-                            <span class="delete-product" data-id="">X</span>
-                        </div> -->
+                        <span>X</span>
                     </div>
-                    <h2>Total: $<strong class="price-total">0</strong></h2>
+    
+                    <div class="item">
+                        <img src="./images/products/keyboard-1.jpg" alt="">
+                        <div class="item-content">
+                            <h5>name of product name of product name of product</h5>
+                            <h5 class="cart-price">45.50$</h5>
+                            <h6>Amount: 3</h6>
+                        </div>
+                        <span class="delete-product" data-id="">X</span>
+                    </div> -->
                 </div>
+                <h2>Total: $<strong class="price-total">0</strong></h2>
+                <a href="Carrito.html" class="boton">Checkout</a>
             </div>
-        </header>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-    <main>
-      
-        <div class="catalogo">
-            <div class="producto">
-                <img src="ruta/de/tu/imagen1.jpg" alt="Producto 1">
-                <h2>Producto 1</h2>
-                <p>Descripción breve del producto 1.</p>
-                <p class="precio">$19.99</p>
-                <button data-nombre="Producto 1" data-precio="19.99">Añadir al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="ruta/de/tu/imagen2.jpg" alt="Producto 2">
-                <h2>Producto 2</h2>
-                <p>Descripción breve del producto 2.</p>
-                <p class="precio">$29.99</p>
-                <button data-nombre="Producto 2" data-precio="29.99">Añadir al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="ruta/de/tu/imagen3.jpg" alt="Producto 3">
-                <h2>Producto 3</h2>
-                <p>Descripción breve del producto 3.</p>
-                <p class="precio">$39.99</p>
-                <button data-nombre="Producto 3" data-precio="39.99">Añadir al carrito</button>
-            </div>
-            <!-- Agrega más productos según sea necesario -->
         </div>
-    </main>
+    </header>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    <section class="container">
+        <div class="products">
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/34000000/33130000/33120500/33120475/8bcf04bf.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>152</span>$</p>
+                </div>
+                <p class="title">Albergo Etico Roma<br>
+                    Roma-Italy </p>
+                <a href="" data-id="1" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/1000000/70000/63400/63400/33e380c9.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>160</span>$</p>
+                </div>
+                <p class="title"> AXYHOTELS InnStyle Milano  <br>
+                    Milan-Italy </p>
+                <a href="" class="btn-add-cart" data-id="2">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/1000000/20000/14100/14098/w3000h1997x0y3-3e31a1a1.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>170.22</span>$</p>
+                </div>
+                <p class="title">Londra Palace Venezia<br>
+                    Venezia-Italy</p>
+                <a href="" data-id="3" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/15000000/14730000/14725900/14725875/541921cb.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>190.33</span>$</p>
+                </div>
+                <p class="title"> Only YOU Hotel Atocha,Madrid- España<br>
+                    </p>
+                <a href="" data-id="4" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/1000000/10000/5400/5310/3d77edcb.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>200.33</span>$</p>
+                </div>
+                <p class="title"> Gallery Hotel, Barcelona España <br>
+                    7 days and 6 nights
+                </p>
+                <a href="" data-id="5" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/1000000/30000/24100/24011/e06771d1.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>250.33</span>$</p>
+                </div>
+                <p class="title"> Le Pradey 
+                    <br>
+                    Paris-Francia
+                </p>
+                <a href="" data-id="6" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/107000000/106680000/106676600/106676587/f72e00c2.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>190.22</span>$</p>
+                </div>
+                <p class="title"> Campamento Canaima <br>
+                    Canaima-Venezuela </p>
+                <a href="" data-id="7" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/1000000/870000/860400/860332/67314bdb.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>200.65</span>$</p>
+                </div>
+                <p class="title">Paraiso de la Bonita <br>
+
+                    Cancun-Mexico</p>
+                <a href="" data-id="8" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/17000000/16390000/16385100/16385021/af03ec25.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>250</span>$</p>
+                </div>
+                <p class="title"> Fairmont Quasar Istanbul <br>
+
+                    Istanbul- Turquia</p>
+                <a href="" data-id="9" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/92000000/91650000/91641500/91641482/2288a9fb.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>150.33</span>$</p>
+                </div>
+                <p class="title"> Royal Andilana Resort & Spa <br>
+                Madagascar</p>
+                <a href="" data-id="10" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+            </div>
+            <div class="carts">
+                <div>
+                    <img src="https://images.trvl-media.com/lodging/89000000/88520000/88512300/88512242/db01cf3c.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                    <p><span>200.22</span>$</p>
+                </div>
+                <p class="title"> Ulus G Residences <br>
+                    Istanbul- Turquia</p>
+                <a href="" data-id="11" class="btn-add-cart">add to cart</a><br><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                
+            </div>
+        </div>
+    </section>
+
     <footer>
         <footer id="footer-2-cols" class="site-footer">
             <div id="footer-container">
@@ -138,6 +277,16 @@
                 </div>
         </div>
     </footer>
-    <script src="/js/carrito.js"></script> 
+
+    <script>
+        function showCart(x){
+            document.getElementById("products-id").style.display = "block";
+        }
+        function closeBtn(){
+             document.getElementById("products-id").style.display = "none";
+        }
+
+    </script>
+    <script src="/js/custom.js" ></script>
 </body>
 </html>

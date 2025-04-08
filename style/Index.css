@@ -145,7 +145,7 @@ div.mister_separator {
 
 footer.site-footer {
     padding: 60px 30px;
-    background-image: linear-gradient(to bottom, #0e67b5ff #f8f2e8ff);
+  
     background-attachment: fixed;
     color: rgb(0, 0, 0);
     font-size: 10pt;
