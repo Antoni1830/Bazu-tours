@@ -116,12 +116,11 @@
   /* Footer */
   footer {
    
-    
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
     color: #000000;
-    display: grid 1;
+    display: grid ;
 }
 
 
