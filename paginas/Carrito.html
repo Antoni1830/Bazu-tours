@@ -15,11 +15,17 @@
     <body>
         <header>
             <script src="js/utils.mjs"></script>
-    
+            <div class="alert">
+              <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+              <strong>Consulta el Precio del Dólar</strong> <button id="getDollar">Obtener Precio del Dólar</button>
+              <div id="dollarResult"></div>
+              <script src="/js/dolar.js"></script>
+            </div>
     <section class="hero">
             
         <img src="/img/bazu-tours-logos_transparent.png" style="width: 300px;" alt="">
     </section>
+    
 
       <div class="icon-bar">
         <a class="active1" href="/Index.html"><i class="fa fa-home"></i></a> 
@@ -96,7 +102,7 @@
     </div>
   </div>
 </div>
-<img src="https://fakeimg.pl/350x200/?text=Hello">
+
         <footer>
             <footer id="footer-2-cols" class="site-footer">
                 <div id="footer-container">
