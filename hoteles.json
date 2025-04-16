@@ -1,57 +1,47 @@
-[
+
     {
         "nombre1": "Catedral de Milan",
         "ubicacion1": "Milan Cathedral is a Gothic cathedral located in the city of the same name.",
-        "imagen1": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8yuTvMwNJBhnxdJkKl7j3ezuro7mbfXb91UJegeVZyH14yDDEknhnrclqJn20emESvs3P_w8rlnBk0je4HgNZodhH4VQQU0hqufOTfRNf3BxAOnrex0N_2h1FIaDzSR-MJ9p98LA=s1360-w1360-h1020-rw"
-    },
-    {
-        "nombre": "Torre de Pisa ",
-        "ubicacion": "Located in the Piazza del Duomo in Pisa, in the city of the same name, a municipality in the Italian region of Tuscany and capital of the province of the same name in Italy.",
-        "imagen2": "img/lololo/as.png"
-    },
-    {
-        "nombre": "Coliseo de Roma",
-        "ubicacion": "It is an amphitheater from the time of the Roman Empire, built in the 1st century. It is located in the east of the Roman Forum and was the largest of those built in the Roman Empire",
-        "imagen3": "https://images.trvl-media.com/lodging/1000000/20000/14100/14098/w3000h1997x0y3-3e31a1a1.jpg?impolicy=resizecrop&rw=1200&ra=fit"
-    },
-    {
-        "nombre": "Only YOU Hotel Atocha",
-        "ubicacion": "Madrid, España",
-        "imagen4": "https://images.trvl-media.com/lodging/15000000/14730000/14725900/14725875/541921cb.jpg?impolicy=resizecrop&rw=1200&ra=fit"
-    },
-    {
-        "nombre": "Gallery Hotel",
-        "ubicacion": "Barcelona España",
-        "imagen5": "https://images.trvl-media.com/lodging/1000000/10000/5400/5310/3d77edcb.jpg?impolicy=resizecrop&rw=1200&ra=fit"
-    },
-    {
-        "nombre": "Le Pradey",
-        "ubicacion": "Paris-Francia",
-        "imagen6": "https://images.trvl-media.com/lodging/1000000/30000/24100/24011/e06771d1.jpg?impolicy=resizecrop&rw=1200&ra=fit"
-    },
-    {
-        "nombre": "Campamento Canaima",
-        "ubicacion": " Canaima-Venezuela",
-        "imagen7": "https://images.trvl-media.com/lodging/107000000/106680000/106676600/106676587/f72e00c2.jpg?impolicy=resizecrop&rw=1200&ra=fit"
-    },
-    {
-        "nombre": "Paraiso de la Bonita",
-        "ubicacion": "Cancun-Mexico",
-        "imagen8": "https://images.trvl-media.com/lodging/1000000/870000/860400/860332/67314bdb.jpg?impolicy=resizecrop&rw=1200&ra=fit"
-    },
-    {
-        "nombre": "Fairmont Quasar Istanbul",
-        "ubicacion": "Istanbul- Turquia",
-        "imagen9": "https://images.trvl-media.com/lodging/17000000/16390000/16385100/16385021/af03ec25.jpg?impolicy=resizecrop&rw=1200&ra=fit"
-    },
-    {
-        "nombre": "Royal Andilana Resort & Spa",
-        "ubicacion": "Madagascar",
-        "imagen10": "https://images.trvl-media.com/lodging/92000000/91650000/91641500/91641482/2288a9fb.jpg?impolicy=resizecrop&rw=1200&ra=fit"
-    },
-    {
-        "nombre": "Ulus G Residences",
-        "ubicacion": "Istanbul- Turquia",
-        "imagen11": "https://images.trvl-media.com/lodging/89000000/88520000/88512300/88512242/db01cf3c.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+        "imagen1": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Milan_Cathedral_from_Piazza_del_Duomo.jpg/500px-Milan_Cathedral_from_Piazza_del_Duomo.jpg",
+    
+    
+        "nombre2": "Torre de Pisa ",
+        "ubicacion2": "Located in the Piazza del Duomo in Pisa, in the city of the same name, a municipality in the Italian region of Tuscany and capital of the province of the same name in Italy.",
+        "imagen2": "https://services.meteored.com/img/article/se-endereza-la-torre-de-pisa-recupera-4-centimetros-1672763123032_1024.jpg",
+    
+    
+        "nombre3": "Coliseo de Roma",
+        "ubicacion3": "It is an amphitheater from the time of the Roman Empire, built in the 1st century. It is located in the east of the Roman Forum and was the largest of those built in the Roman Empire",
+        "imagen3": "https://viajes.nationalgeographic.com.es/medio/2024/09/19/coliseo_9b206d89_240919151753_1280x853.jpg",
+    
+    
+        "nombre4": "Plaza de España",
+        "ubicacion4": "Madrid, España",
+        "imagen4": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Plaza_de_Espa%C3%B1a_%28Sevilla%29_-_01.jpg",
+    
+    
+        "nombre5": "Basílica de la Sagrada Família",
+        "ubicacion5": "Barcelona España",
+        "imagen5": "https://imagenes.20minutos.es/files/image_990_556/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg",
+    
+    
+        "nombre6": "Palacio Real de Madrid",
+        "ubicacion6": "Paris-Francia",
+        "imagen6": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Palacio_Real_de_Madrid_Julio_2016_%28cropped%29.jpg",
+    
+    
+        "nombre7": "Torre Eiffel",
+        "ubicacion7": " Canaima-Venezuela",
+        "imagen7": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Eiffelturm.JPG/500px-Eiffelturm.JPG",
+    
+    
+        "nombre8": "Museo del Louvre",
+        "ubicacion8": "Cancun-Mexico",
+        "imagen8": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/480px-Louvre_Museum_Wikimedia_Commons.jpg",
+    
+    
+        "nombre9": "Catedral de Notre Dame",
+        "ubicacion9": "Istanbul- Turquia",
+        "imagen9": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/420px-Notre-Dame_de_Paris_2013-07-24.jpg"
     }
-]
+    
