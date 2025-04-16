@@ -604,10 +604,11 @@ img {vertical-align: middle;}
     height: 100%;
         max-width: 100%;
   }
-  .content {
-    background-color: white;
-    padding: 10px;
+  #content1  img{
+    height: 100%;
+        max-width: 100%;
   }
+  
   
   /* The "show" class is added to the filtered elements */
   .show {
