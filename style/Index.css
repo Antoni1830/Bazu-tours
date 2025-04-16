@@ -25,9 +25,12 @@
   
   /* Increase the font size of the heading */
   .header h1 {
+    color: #000;
     font-size: 40px;
   }
-  
+  h1{
+    color: #000;
+  }
   /* Style the top navigation bar */
   body {margin:0;}
 

@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="about me" >
+  <meta property="og:type" content="website" >
+  <meta name="author" content="Antoni Jemmotte" >
+  <meta name="description" content="hello my full name is Antoni Alejandro Jemmotte Raimondo i am student of the course WDD 230 - Web Frontend Development, this is the first assignment of the course;Course Home Page Build"><meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bazu-Tours</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,32 +38,32 @@
  <div class="container">
    <div class="mySlides">
      <div class="numbertext">1 / 6</div>
-     <img src="/img/naviglio-grande-canal-evening-milan-italy.jpg" style="width: 100% ;height :800px;" >
+     <img src="/img/naviglio-grande-canal-evening-milan-italy.jpg" alt="footer" style="width: 100% ;height :800px;" >
    </div>
  
    <div class="mySlides">
      <div class="numbertext">2 / 6</div>
-     <img src="/img/lol/2149520420.jpg" style="width: 100% ;height :800px;">
+     <img src="/img/lol/2149520420.jpg" alt="footo" style="width: 100% ;height :800px;">
    </div>
  
    <div class="mySlides">
      <div class="numbertext">3 / 6</div>
-     <img src="/img/lol/2633.jpg" style="width: 100% ;height :800px;">
+     <img src="/img/lol/2633.jpg" alt="foot" style="width: 100% ;height :800px;">
    </div>
      
    <div class="mySlides">
      <div class="numbertext">4 / 6</div>
-     <img src="/img/lol/6998.jpg" style="width: 100% ;height :800px;">
+     <img src="/img/lol/6998.jpg" alt="foto" style="width: 100% ;height :800px;">
    </div>
  
    <div class="mySlides">
      <div class="numbertext">5 / 6</div>
-     <img src="/img/lol/anthony-delanoix-QAwciFlS1g4-unsplash.jpg" style="width: 100% ;height :800px;">
+     <img src="/img/lol/anthony-delanoix-QAwciFlS1g4-unsplash.jpg" alt="foto" style="width: 100% ;height :800px;">
    </div>
      
    <div class="mySlides">
      <div class="numbertext">6 / 6</div>
-     <img src="/img/lol/anthony-rosset-5r5554u-mHo-unsplash.jpg" style="width: 100% ;height :800px;">
+     <img src="/img/lol/anthony-rosset-5r5554u-mHo-unsplash.jpg" alt="foto" style="width: 100% ;height :800px;">
    </div>
      
    <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -80,13 +83,13 @@
 
  <section class="formsss">
      
-    <form method="get" action="/Index.html">
-      <h1>⚠️Write your review⚠️</h1>
+    <form method="get" action="/paginas/formulario.html">
+      <h2>⚠️Write your review⚠️</h2>
       <label for="fullname" class="req">Name</label>
       <input type="text" id="fullname" name="fullname" required placeholder="Please enter your fname">
       <label for="email" class="req">Email Address</label>
       <input type="email" id="email" name="email" required placeholder="Please use your school email address">
-      <label for="estudios" class="propiedad">Comments</label>
+      <label  >Comments</label>
             <textarea name="texto" rows="4" cols="40" placeholder=" comments...."></textarea>
   
   <button id="btnSubmit" type="submit">Send Form</button>
@@ -108,57 +111,59 @@
     <p><button>Contact</button></p>
   </div>
   
-    <h1>THE CURRENT CLIMATE IN <br>CITY GUAYANA IS <span id="current-temp"></span></h1>
+    <h2>THE CURRENT CLIMATE IN <br>CITY GUAYANA IS <span id="current-temp"></span></h2>
     <figure>
-      <img id="weather-icon" src="" alt="">
+      <img id="weather-icon" src="/img/bazu-tours-logos.jpeg" alt="">
       <figcaption></figcaption>
     </figure>
-<div >
+
     <script src="/js/Api.js"></script>
-</body>
-</main>
-     <hr>
-      <footer>
-        <footer id="footer-2-cols" class="site-footer">
-            <div id="footer-container">
-                <div id="footer-grid">
-                <div id="left-footer-section" class="footer-section">
-                        <div id="footer-search">
-                            
-                        </div>
-                    <div class="footer-information">
-                        <p><img src="https://img.icons8.com/ios-filled/12/999999/marker.png">30/20, Venezuela</p>
-                        <p><img src="https://img.icons8.com/ios-filled/12/999999/phone.png">+58 (414)8677103</p>
-                        <p><img src="https://img.icons8.com/ios-filled/12/999999/mail.png">Bazutours77a@gmail.com</p>
-                        <p><img src="https://img.icons8.com/ios-filled/12/999999/clock.png">8:00 AM – 8:00 PM</p>
-                    </div>
-                </div>
-                <div id="right-footer-section" class="footer-section">
-                    <div class="footer-links">
-                        <ul>
-                            <li role="menuitem"><a href="#">Home</a></li>
-                            <li role="menuitem"><a href="#">Contact Information</a></li>
-                            <li role="menuitem"><a href="#">Message Us</a></li>
-                            <li role="menuitem"><a href="#">Leave a Feedback</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-                <div id="copyright-information">
-                    <div id="footer-logo-section">
-                        <div id="footer-logo">
-                            <img src="img/photo_2023-08-04_15-56-09-removebg-preview.png" alt="">
-                        </div>
-                    </div>
-                    <div id="copyright-text">
-                        &copy; Bazu-Tours, create By Antoni jemmotte 🤙🏽
-                    </div>
-                    <div id="social-buttons">
-                      <a href="https://www.facebook.com/">  <img  src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png" /></a><img src="https://img.icons8.com/ios-filled/25/999999/telegram-app.png"/><img src="https://img.icons8.com/ios-filled/25/999999/instagram--v1.png"/>
-                    </div>
-                </div>
-        </div>
-    </footer>
+  </main>
+
+
+    
+     <footer id="footer-2-cols" class="site-footer">
+      <div id="footer-container">
+          <div id="footer-grid">
+          <div id="left-footer-section" class="footer-section">
+                  <div id="footer-search">
+                      
+                  </div>
+              <div class="footer-information">
+                  <p><img src="https://img.icons8.com/ios-filled/12/999999/marker.png"  alt="icono"> 30/20, Venezuela</p>
+                  <p><img src="https://img.icons8.com/ios-filled/12/999999/phone.png" alt="icono"> +58 (414)8677103</p>
+                  <p><img src="https://img.icons8.com/ios-filled/12/999999/mail.png" alt="icono" >Bazutours77a@gmail.com</p>
+                  <p><img src="https://img.icons8.com/ios-filled/12/999999/clock.png" alt="icono"> 8:00 AM – 8:00 PM</p>
+              </div>
+          </div>
+          <div id="right-footer-section" class="footer-section">
+              <div class="footer-links">
+                <nav>
+                  <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Contact Information</a></li>
+                      <li ><a href="#">Message Us</a></li>
+                      <li ><a href="#">Leave a Feedback</a></li>
+                  </ul>
+                </nav>
+              </div>
+          </div>
+      </div>
+          <div id="copyright-information">
+              <div id="footer-logo-section">
+                  <div id="footer-logo">
+                      <img src="img/photo_2023-08-04_15-56-09-removebg-preview.png" alt="">
+                  </div>
+              </div>
+              <div id="copyright-text">
+                  &copy; Bazu-Tours, create By Antoni jemmotte 🤙🏽
+              </div>
+              <div id="social-buttons">
+                <a href="https://www.facebook.com/">  <img  src="https://img.icons8.com/ios-filled/25/999999/facebook--v1.png"  alt=" logo"></a><img src="https://img.icons8.com/ios-filled/25/999999/telegram-app.png" alt="logo"><img src="https://img.icons8.com/ios-filled/25/999999/instagram--v1.png" alt="logo">
+              </div>
+          </div>
+  </div>
+</footer>
 
 </body>
 </html>
