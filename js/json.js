@@ -8,7 +8,7 @@ fetch(url)
     <p>Located in the Piazza del Duomo in Pisa, in the city of the same name, a municipality in the Italian region of Tuscany and capital of the province of the same name in Italy.</p>`
 
     let element2=document.getElementById('content2')
-    element2.innerHTML=`<img src='${data.imagen1}'>
+    element2.innerHTML=`<img src='${data.imagen2}'>
     <h3>Coliseo de Roma</h3>
     <p>Located in the Piazza del Duomo in Pisa, in the city of the same name, a municipality in the Italian region of Tuscany and capital of the province of the same name in Italy.</p>`
 

@@ -1,47 +1,48 @@
-
+[
     {
         "nombre1": "Catedral de Milan",
         "ubicacion1": "Milan Cathedral is a Gothic cathedral located in the city of the same name.",
-        "imagen1": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Milan_Cathedral_from_Piazza_del_Duomo.jpg/500px-Milan_Cathedral_from_Piazza_del_Duomo.jpg",
-    
-    
+        "imagen1": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Milan_Cathedral_from_Piazza_del_Duomo.jpg/500px-Milan_Cathedral_from_Piazza_del_Duomo.jpg"
+    },
+    {
         "nombre2": "Torre de Pisa ",
         "ubicacion2": "Located in the Piazza del Duomo in Pisa, in the city of the same name, a municipality in the Italian region of Tuscany and capital of the province of the same name in Italy.",
-        "imagen2": "https://services.meteored.com/img/article/se-endereza-la-torre-de-pisa-recupera-4-centimetros-1672763123032_1024.jpg",
-    
-    
+        "imagen2": "https://services.meteored.com/img/article/se-endereza-la-torre-de-pisa-recupera-4-centimetros-1672763123032_1024.jpg"
+    },
+    {
         "nombre3": "Coliseo de Roma",
         "ubicacion3": "It is an amphitheater from the time of the Roman Empire, built in the 1st century. It is located in the east of the Roman Forum and was the largest of those built in the Roman Empire",
-        "imagen3": "https://viajes.nationalgeographic.com.es/medio/2024/09/19/coliseo_9b206d89_240919151753_1280x853.jpg",
-    
-    
+        "imagen3": "https://viajes.nationalgeographic.com.es/medio/2024/09/19/coliseo_9b206d89_240919151753_1280x853.jpg"
+    },
+    {
         "nombre4": "Plaza de España",
         "ubicacion4": "Madrid, España",
-        "imagen4": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Plaza_de_Espa%C3%B1a_%28Sevilla%29_-_01.jpg",
-    
-    
+        "imagen4": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Plaza_de_Espa%C3%B1a_%28Sevilla%29_-_01.jpg"
+    },
+    {
         "nombre5": "Basílica de la Sagrada Família",
         "ubicacion5": "Barcelona España",
         "imagen5": "https://imagenes.20minutos.es/files/image_990_556/uploads/imagenes/2023/07/14/basilica-de-la-sagrada-familia.jpeg",
-    
-    
+    },
+    {
         "nombre6": "Palacio Real de Madrid",
         "ubicacion6": "Paris-Francia",
         "imagen6": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Palacio_Real_de_Madrid_Julio_2016_%28cropped%29.jpg",
-    
-    
+    },
+    {
         "nombre7": "Torre Eiffel",
         "ubicacion7": " Canaima-Venezuela",
         "imagen7": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Eiffelturm.JPG/500px-Eiffelturm.JPG",
     
-    
+    },
+    {
         "nombre8": "Museo del Louvre",
         "ubicacion8": "Cancun-Mexico",
-        "imagen8": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Louvre_Museum_Wikimedia_Commons.jpg/480px-Louvre_Museum_Wikimedia_Commons.jpg",
-    
-    
+        "imagen8": "https://images.trvl-media.com/lodging/1000000/870000/860400/860332/67314bdb.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+    },
+    {
         "nombre9": "Catedral de Notre Dame",
         "ubicacion9": "Istanbul- Turquia",
-        "imagen9": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/420px-Notre-Dame_de_Paris_2013-07-24.jpg"
+        "imagen9": "https://images.trvl-media.com/lodging/17000000/16390000/16385100/16385021/af03ec25.jpg?impolicy=resizecrop&rw=1200&ra=fit"
     }
-    
+    ]
