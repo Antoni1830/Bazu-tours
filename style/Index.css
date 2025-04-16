@@ -572,7 +572,7 @@ img {vertical-align: middle;}
     height: 100%;
         max-width: 100%;
   }
-  #content1{
+  #content1 ,#content2{
     background-color: white;
     padding: 10px;
   }
