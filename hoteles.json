@@ -1,17 +1,17 @@
 [
     {
-        "nombre": "Albergo Etico Roma",
-        "ubicacion": "Roma-Italy",
+        "nombre1": "Catedral de Milan",
+        "ubicacion1": "Milan Cathedral is a Gothic cathedral located in the city of the same name.",
         "imagen1": "https://lh3.googleusercontent.com/gps-cs-s/AB5caB8yuTvMwNJBhnxdJkKl7j3ezuro7mbfXb91UJegeVZyH14yDDEknhnrclqJn20emESvs3P_w8rlnBk0je4HgNZodhH4VQQU0hqufOTfRNf3BxAOnrex0N_2h1FIaDzSR-MJ9p98LA=s1360-w1360-h1020-rw"
     },
     {
-        "nombre": "AXYHOTELS InnStyle Milano ",
-        "ubicacion": "Milan-Italy",
-        "imagen2": "https://images.trvl-media.com/lodging/1000000/70000/63400/63400/33e380c9.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+        "nombre": "Torre de Pisa ",
+        "ubicacion": "Located in the Piazza del Duomo in Pisa, in the city of the same name, a municipality in the Italian region of Tuscany and capital of the province of the same name in Italy.",
+        "imagen2": "img/lololo/as.png"
     },
     {
-        "nombre": "Londra Palace Venezia",
-        "ubicacion": "Venezia-Italy",
+        "nombre": "Coliseo de Roma",
+        "ubicacion": "It is an amphitheater from the time of the Roman Empire, built in the 1st century. It is located in the east of the Roman Forum and was the largest of those built in the Roman Empire",
         "imagen3": "https://images.trvl-media.com/lodging/1000000/20000/14100/14098/w3000h1997x0y3-3e31a1a1.jpg?impolicy=resizecrop&rw=1200&ra=fit"
     },
     {
