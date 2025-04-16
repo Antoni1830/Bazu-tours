@@ -420,6 +420,7 @@ footer#footer-2-cols div#copyright-information div#social-buttons i.fa:hover {
       float: none;
       width: 100%;
     }
+    
   }
 
 
@@ -514,6 +515,7 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+  main{display: flex;}
 }
 
 
@@ -1029,3 +1031,10 @@ color: #0e67b5ff;}
     transition: .5s ease;
     backface-visibility: hidden;
   }
+  @media (max-width: 600px) {
+    main {
+        display: flex; /* Cambia a Flexbox */
+        flex-direction: column; /* Apila los elementos verticalmente */
+    }
+    
+}

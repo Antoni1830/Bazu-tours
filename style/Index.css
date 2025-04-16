@@ -91,6 +91,9 @@
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
   }
   
   /* Create two unequal columns that sits next to each other */
@@ -430,6 +433,12 @@ footer#footer-2-cols div#copyright-information div#social-buttons i.fa:hover {
       float: none;
       width: 100%;
     }
+    
+    #content9 {
+      padding: 15px; /* Reduce el padding en pantallas pequeñas */
+      font-size: 14px; /* Reduce el tamaño de la fuente */
+  }
+    
   }
 
 
@@ -522,8 +531,12 @@ img {vertical-align: middle;}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+@media (max-width: 600px) {
+  nav ul li {
+      display: block; 
+      margin: 10px 0; 
+  }
+
 }
 
 
@@ -568,6 +581,7 @@ img {vertical-align: middle;}
     content: "";
     display: table;
     clear: both;
+    
   }
   
   /* Content */
@@ -608,6 +622,7 @@ img {vertical-align: middle;}
         max-width: 100%;
   }
   #content1  img{
+    
     height: 100%;
         max-width: 100%;
   }
